@@ -1,0 +1,153 @@
+/* Adding style before all the elements */
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+section {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 75px;
+  text-align: center;
+  color: darkblue;
+  margin: 10px;
+}
+
+div {
+  border: 3px solid darkgray;
+}
+
+/* End of extra styles */
+/* Layout 1 */
+
+.l1__container {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l1__box-wrapper {
+  border: 0px;
+  width: calc(100% / 3);
+  max-width: 175px;
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.l1__box {
+  width: 100px;
+  height: 100px;
+}
+
+.l1__box-small {
+  width: 50px;
+  height: 50px;
+}
+
+/* Layout 2 */
+
+.l2__container {
+  padding: 24px 24px 0px 24px;
+}
+
+.l2__row {
+  border: 0px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.l2__box-wrapper {
+  border: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.l2__title {
+  border: 1px solid gray;
+  width: 100%;
+  height: 24px;
+  margin-bottom: 24px;
+}
+
+.l2__box {
+  width: 30%;
+  height: 100px;
+  margin-bottom: 24px;
+}
+
+/* Layout 3 */
+
+.l3__container {
+  padding: 24px 24px 0px 24px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.l3__box-wrapper {
+  border: 0px;
+  width: 45%;
+}
+
+.l3__box {
+  margin-bottom: 24px;
+}
+
+.l3__box-small {
+  height: 50px;
+}
+
+.l3__box-large {
+  width: 45%;
+}
+
+/* Layout 4 */
+
+.l4__container {
+  padding: 56px 56px 24px 56px;
+}
+
+.l4__row {
+  border: 0px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l4__box-wrapper {
+  border: 0px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.l4__sub-box-wrapper {
+  border: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.l4__box {
+  margin-bottom: 24px;
+}
+
+.l4__box-tiny {
+  width: 30%;
+  height: 50px;
+}
+
+.l4__box-small {
+  height: 50px;
+}
+
+.l4__box-large {
+  width: 45%;
+}

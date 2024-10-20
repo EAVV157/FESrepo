@@ -1,0 +1,144 @@
+/* div{
+    width: 100%;
+    max-width: 200px;
+    border: 1px solid black;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "Roboto", sans-serif;
+} */
+
+/* .red {
+  color: red;
+}
+
+p.blue {
+  color: blue;
+}
+
+.blue {
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+#title{
+  font-weight: bold;
+  color: purple;
+} */
+
+/* section {
+  height: 80vh;
+  border: 1px solid black;
+}
+
+p{
+  color: blue;
+}
+
+.red{
+  color: red;
+}
+
+p.red{
+  color: purple;
+}
+
+#title{
+  color: black;
+} */
+
+/* #title.heading.red{
+  color: blue;
+} */
+
+/* .box{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border: 15px solid red;
+  padding: 15px;
+  margin: 15px;
+  box-sizing: border-box;
+} */
+
+/* div{
+  height: 200px;
+  border: 3px solid black;
+}
+
+.red {
+  background-color: red;
+  
+  position: relative;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  
+}
+
+.child {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+right: 0;
+} */
+
+/* div {
+  background-color: red;
+  color: white;
+  font-size: 24px;
+}
+
+@media (max-width: 992px) {
+  div {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  div {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  div {
+    font-size: 16px;
+  }
+} */
+
+/* div::before {
+  content: " Frontend Simplified "
+} */
+
+div{
+  transition: background-color 300ms;
+}
+
+div:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+button {
+  animation: float 5s infinite alternate-reverse;
+  transition: all 300ms;
+}
+
+button:hover {
+  background-color: darkgray;
+  color: white;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
