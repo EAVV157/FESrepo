@@ -313,6 +313,22 @@ nav {
   color: #ffffff;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: #1F1F1F;
+}
+
+.footer__row {
+  padding: 8% 0;
+}
+
+.footer__logo--img {
+  width: 70px;
+  height: 70px;
+}
+
+
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
 @media (max-width: 728px) {
   h1,
